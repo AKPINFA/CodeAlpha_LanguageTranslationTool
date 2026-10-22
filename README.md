@@ -16,13 +16,13 @@ A clean and fast web app to translate text between 130+ languages, built with Py
 
  Translate text between 130+ languages
 
-Multi-language mode\*\*: translate one text into up to 4 languages at once, one tab per language
+Multi-language mode: translate one text into up to 4 languages at once, one tab per language
 
  Swap source and target languages in one click
 
-Copy\*\* the translation to the clipboard
+Copy the translation to the clipboard
 
-Text-to-speech\*\* with a choice of female or male voice
+Text-to-speech with a choice of female or male voice
 
  Reliable translation: several free translation services are tried in turn until one answers
 
@@ -46,13 +46,13 @@ Purpose  Library
 
 
 
- User interface | \[Streamlit](https://streamlit.io) |
+ User interface  \[Streamlit](https://streamlit.io) 
 
- Translation | Google Translate, MyMemory and Lingva public APIs, called with \[requests](https://requests.readthedocs.io) |
+ Translation Google Translate, MyMemory and Lingva public APIs, called with \[requests](https://requests.readthedocs.io) 
 
- Language list | \[deep-translator](https://github.com/nidhaloff/deep-translator) |
+ Language list  [deep-translator](https://github.com/nidhaloff/deep-translator) 
 
- Text-to-speech | \[edge-tts](https://github.com/rany2/edge-tts) (neural voices), \[gTTS](https://github.com/pndurette/gTTS) (fallback) |
+ Text-to-speech  [edge-tts](https://github.com/rany2/edge-tts) (neural voices), \[gTTS](https://github.com/pndurette/gTTS) (fallback) 
 
 
 
