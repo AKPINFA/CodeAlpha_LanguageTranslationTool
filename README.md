@@ -1,8 +1,8 @@
-\# Language Translation Tool
+ Language Translation Tool
 
 
 
-!\[Language Translation Tool](screenshots/banner.png)
+[Language Translation Tool](screenshots/banner.png)
 
 
 
@@ -10,41 +10,41 @@ A clean and fast web app to translate text between 130+ languages, built with Py
 
 
 
-\## Features
+ Features
 
 
 
-\- Translate text between 130+ languages
+ Translate text between 130+ languages
 
-\- \*\*Multi-language mode\*\*: translate one text into up to 4 languages at once, one tab per language
+Multi-language mode\*\*: translate one text into up to 4 languages at once, one tab per language
 
-\- Swap source and target languages in one click
+ Swap source and target languages in one click
 
-\- \*\*Copy\*\* the translation to the clipboard
+Copy\*\* the translation to the clipboard
 
-\- \*\*Text-to-speech\*\* with a choice of female or male voice
+Text-to-speech\*\* with a choice of female or male voice
 
-\- Reliable translation: several free translation services are tried in turn until one answers
+ Reliable translation: several free translation services are tried in turn until one answers
 
-\- Input validation and clear error messages
-
-
-
-\## Screenshot
+ Input validation and clear error messages
 
 
 
-!\[App screenshot](screenshots/app.png)
+Screenshot
 
 
 
-\## Tech stack
+[App screenshot](screenshots/app.png)
 
 
 
-| Purpose | Library |
+ Tech stack
 
-|---|---|
+
+
+Purpose  Library 
+
+
 
 | User interface | \[Streamlit](https://streamlit.io) |
 
@@ -56,21 +56,21 @@ A clean and fast web app to translate text between 130+ languages, built with Py
 
 
 
-\## Getting started
+Getting started
 
 
 
-\### Prerequisites
+Prerequisites
 
 
 
-\- Python 3.10 or newer
+Python 3.10 or newer
 
-\- An internet connection (translation and audio use online services)
+An internet connection (translation and audio use online services)
 
 
 
-\### Installation
+ Installation
 
 
 
@@ -100,7 +100,7 @@ pip install -r requirements.txt
 
 
 
-\### Run the app
+ Run the app
 
 
 
@@ -116,7 +116,7 @@ The app opens at http://localhost:8501.
 
 
 
-\## Project structure
+ Project structure
 
 
 
@@ -142,33 +142,33 @@ The app opens at http://localhost:8501.
 
 
 
-\## How it works
+ How it works
 
 
 
-1\. The user enters a text and chooses the source and target language(s).
+1. The user enters a text and chooses the source and target language(s).
 
-2\. `translator.py` sends the text to Google Translate. If that service refuses the request, it automatically tries MyMemory, then Lingva.
+2. `translator.py` sends the text to Google Translate. If that service refuses the request, it automatically tries MyMemory, then Lingva.
 
-3\. The result is displayed in a card, with a copy button and a text-to-speech player.
+3. The result is displayed in a card, with a copy button and a text-to-speech player.
 
-4\. In multi-language mode, the same process runs once per selected language and the results appear in tabs.
-
-
-
-\## Notes and limitations
+4. In multi-language mode, the same process runs once per selected language and the results appear in tabs.
 
 
 
-\- Input is limited to 500 characters per translation.
-
-\- The translation services are free public services: availability and rate limits are outside the app's control.
-
-\- Text-to-speech needs an internet connection. When no male/female voice exists for a language, a default voice is used.
+ Notes and limitations
 
 
 
-\## Author
+ Input is limited to 500 characters per translation.
+
+ The translation services are free public services: availability and rate limits are outside the app's control.
+
+ Text-to-speech needs an internet connection. When no male/female voice exists for a language, a default voice is used.
+
+
+
+
 
 
 
