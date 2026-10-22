@@ -172,5 +172,5 @@ The app opens at http://localhost:8501.
 
 
 
-Created by \[AKPINFA](https://github.com/AKPINFA).
+Created by (https://github.com/AKPINFA).
 
