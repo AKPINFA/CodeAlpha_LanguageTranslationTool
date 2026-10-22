@@ -46,13 +46,13 @@ Purpose  Library
 
 
 
-| User interface | \[Streamlit](https://streamlit.io) |
+ User interface | \[Streamlit](https://streamlit.io) |
 
-| Translation | Google Translate, MyMemory and Lingva public APIs, called with \[requests](https://requests.readthedocs.io) |
+ Translation | Google Translate, MyMemory and Lingva public APIs, called with \[requests](https://requests.readthedocs.io) |
 
-| Language list | \[deep-translator](https://github.com/nidhaloff/deep-translator) |
+ Language list | \[deep-translator](https://github.com/nidhaloff/deep-translator) |
 
-| Text-to-speech | \[edge-tts](https://github.com/rany2/edge-tts) (neural voices), \[gTTS](https://github.com/pndurette/gTTS) (fallback) |
+ Text-to-speech | \[edge-tts](https://github.com/rany2/edge-tts) (neural voices), \[gTTS](https://github.com/pndurette/gTTS) (fallback) |
 
 
 
