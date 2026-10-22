@@ -1,0 +1,5 @@
+streamlit>=1.40
+deep-translator>=1.11
+requests
+gTTS>=2.5
+edge-tts
